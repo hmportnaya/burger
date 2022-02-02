@@ -68,3 +68,20 @@ img {
     position: absolute;
     right: -168px;
 }
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 60px;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: 120px;
+        margin-bottom: 40px;
+    }
+    h1 span {
+        color: #FBB731;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 38px;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
